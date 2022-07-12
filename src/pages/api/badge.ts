@@ -14,10 +14,6 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
     executablePath: await chrome.executablePath,
     args: chrome.args,
     headless: true,
-    defaultViewport: {
-      width: 600,
-      height: 600,
-    },
   });
 
   const page = await browser.newPage();

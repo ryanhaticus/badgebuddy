@@ -10,15 +10,12 @@ specifiers:
   '@types/react': ^18.0.14
   autoprefixer: ^10.4.7
   chrome-aws-lambda: ^10.1.0
-  cookies-next: ^2.1.1
   eslint: 8.19.0
   eslint-config-next: 12.2.0
   firebase: ^9.8.4
-  html-to-image: ^1.9.0
   next: ^12.2.0
   next-seo: ^5.4.0
   postcss: ^8.4.14
-  puppeteer: ^15.3.2
   puppeteer-core: ^15.3.2
   react: 18.2.0
   react-dom: 18.2.0
@@ -41,14 +38,11 @@ devDependencies:
   '@types/react': 18.0.15
   autoprefixer: 10.4.7_postcss@8.4.14
   chrome-aws-lambda: 10.1.0_puppeteer-core@15.3.2
-  cookies-next: 2.1.1
   eslint: 8.19.0
   eslint-config-next: 12.2.0_4x5o4skxv6sl53vpwefgt23khm
   firebase: 9.9.0
-  html-to-image: 1.9.0
   next-seo: 5.4.0_7gpduzaz4csxytrukenoyuq3te
   postcss: 8.4.14
-  puppeteer: 15.3.2
   puppeteer-core: 15.3.2
   tailwindcss: 3.1.5_ts-node@10.8.2
   ts-node: 10.8.2_fxk5i3xm3ivo7fjwhcizcinpla
@@ -872,20 +866,12 @@ packages:
     resolution: {integrity: sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==}
     dev: true
 
-  /@types/cookie/0.4.1:
-    resolution: {integrity: sha512-XW/Aa8APYr6jSVVA1y/DEIZX0/GMKLEVekNG727R8cs56ahETkRAy/3DR7+fJyh7oUgGwNQaRfXCun0+KbWY7Q==}
-    dev: true
-
   /@types/json5/0.0.29:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
   /@types/long/4.0.2:
     resolution: {integrity: sha512-MqTGEo5bj5t157U6fA/BiDynNkn0YknVdh48CMPkTSpFTVmvao5UQmm7uEF6xBEo7qIMAlY/JSleYaE6VOdpaA==}
-    dev: true
-
-  /@types/node/16.11.43:
-    resolution: {integrity: sha512-GqWykok+3uocgfAJM8imbozrqLnPyTrpFlrryURQlw1EesPUCx5XxTiucWDSFF9/NUEXDuD4bnvHm8xfVGWTpQ==}
     dev: true
 
   /@types/node/18.0.3:
@@ -1274,19 +1260,6 @@ packages:
 
   /concat-map/0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
-    dev: true
-
-  /cookie/0.4.2:
-    resolution: {integrity: sha512-aSWTXFzaKWkvHO1Ny/s+ePFpvKsPnjc551iI41v3ny/ow6tBG5Vd+FuqGNhh1LxOmVzOlGUriIlOaokOvhaStA==}
-    engines: {node: '>= 0.6'}
-    dev: true
-
-  /cookies-next/2.1.1:
-    resolution: {integrity: sha512-AZGZPdL1hU3jCjN2UMJTGhLOYzNUN9Gm+v8BdptYIHUdwz397Et1p+sZRfvAl8pKnnmMdX2Pk9xDRKCGBum6GA==}
-    dependencies:
-      '@types/cookie': 0.4.1
-      '@types/node': 16.11.43
-      cookie: 0.4.2
     dev: true
 
   /core-js-pure/3.23.4:
@@ -2070,10 +2043,6 @@ packages:
       function-bind: 1.1.1
     dev: true
 
-  /html-to-image/1.9.0:
-    resolution: {integrity: sha512-9gaDCIYg62Ek07F2pBk76AHgYZ2gxq2YALU7rK3gNCqXuhu6cWzsOQqM7qGbjZiOzxGzrU1deDqZpAod2NEwbA==}
-    dev: true
-
   /http-parser-js/0.5.8:
     resolution: {integrity: sha512-SGeBX54F94Wgu5RH3X5jsDtf4eHyRogWX1XGT3b4HuW3tQPM4AaBzoUji/4AAJNXCEOWZ5O0DgZmJw1947gD5Q==}
     dev: true
@@ -2833,30 +2802,6 @@ packages:
   /puppeteer-core/15.3.2:
     resolution: {integrity: sha512-Fmca9UzXmJkRrvGBgUmrffGD2BlulUTfsVefV1+vqfNm4PnlZ/U1bfD6X8XQ0nftyyg520tmSKd81yH3Z2tszg==}
     engines: {node: '>=14.1.0'}
-    dependencies:
-      cross-fetch: 3.1.5
-      debug: 4.3.4
-      devtools-protocol: 0.0.1011705
-      extract-zip: 2.0.1
-      https-proxy-agent: 5.0.1
-      pkg-dir: 4.2.0
-      progress: 2.0.3
-      proxy-from-env: 1.1.0
-      rimraf: 3.0.2
-      tar-fs: 2.1.1
-      unbzip2-stream: 1.4.3
-      ws: 8.8.0
-    transitivePeerDependencies:
-      - bufferutil
-      - encoding
-      - supports-color
-      - utf-8-validate
-    dev: true
-
-  /puppeteer/15.3.2:
-    resolution: {integrity: sha512-6z4fTHCHTpG3Yu7zqP0mLfCmkNkgw5KSUfLAwuBabz9Pkqoe0Z08hqUx5GNxhhMgEo4YVOSPBshePA6zliznWQ==}
-    engines: {node: '>=14.1.0'}
-    requiresBuild: true
     dependencies:
       cross-fetch: 3.1.5
       debug: 4.3.4
