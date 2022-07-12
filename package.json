@@ -24,7 +24,6 @@
     "chrome-aws-lambda": "^10.1.0",
     "eslint": "8.19.0",
     "eslint-config-next": "12.2.0",
-    "firebase": "^9.8.4",
     "next-seo": "^5.4.0",
     "postcss": "^8.4.14",
     "puppeteer-core": "^15.3.2",
