@@ -9,9 +9,6 @@ import { classNames } from '@/doodle/helpers/tailwindcss';
 
 library.add(fas, far, fab);
 
-import { toSvg } from 'html-to-image';
-import { useEffect, useRef, useState } from 'react';
-
 const Badge = () => {
   const router = useRouter();
   const {
@@ -72,28 +69,9 @@ const Badge = () => {
       size === 'large' && 'text-lg',
     );
 
-  const badgeRef = useRef();
-
-  const [svg, setSvg] = useState<string>(null);
-
-  useEffect(() => {
-    if (!badgeRef.current) {
-      return;
-    }
-
-    (async () => {
-      const processedSvg = await toSvg(badgeRef.current);
-      setSvg(processedSvg);
-    })();
-  }, [badgeRef]);
-
-  if (svg) {
-    return <img src={svg} />;
-  }
-
   return (
-    <div ref={badgeRef} className='flex'>
-      <div className={badgeClasses()}>
+    <div className='flex'>
+      <div id='badge' className={badgeClasses()}>
         <FontAwesomeIcon
           className={iconClasses()}
           icon={`fa-${set} fa-${icon}` as unknown as IconProp}
