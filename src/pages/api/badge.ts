@@ -1,4 +1,5 @@
-import { NextApiRequest, NextApiResponse } from 'next';
+import type { NextApiRequest } from 'next';
+import { NextApiResponse } from 'next';
 import chrome from 'chrome-aws-lambda';
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
