@@ -4,7 +4,7 @@ import chrome from 'chrome-aws-lambda';
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   const { query } = req;
 
-  const url = `http://localhost:3000/badge?${new URLSearchParams(
+  const url = `https://badgebuddy.vercel.app/badge?${new URLSearchParams(
     // @ts-expect-error
     query,
   )}`;
