@@ -22,7 +22,7 @@ const Badge = () => {
     gap = 'some',
   } = router.query;
 
-  // set = brands, solid
+  // set = brands, solid, regular
   // icon = react, rectangle
   // size = small, medium, large
   // scheme = light, dark, red, blue, green, yellow, orange, purple, pink, indigo, gray, black, white
