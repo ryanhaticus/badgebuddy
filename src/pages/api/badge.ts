@@ -2,6 +2,13 @@ import type { NextApiRequest } from 'next';
 import { NextApiResponse } from 'next';
 import chrome from 'chrome-aws-lambda';
 
+/*
+
+If you're deploying this function on Vercel, please note puppeteer-core only supports
+up to NodeJS 14.x at the moment. You must adjust this in 'General Settings' and redeploy.
+
+*/
+
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   const { query } = req;
 
