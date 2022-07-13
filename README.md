@@ -25,6 +25,12 @@ In order to customize the icon set, color, icon, text, badge size, padding, and 
 | size      | small, medium\*, large                                                                    |                                                                                                                          |
 | gap       | none, some\*, more, most                                                                  |                                                                                                                          |
 
+For example, if I want a React badge that says React Native, is blue, with some rounding, more padding, at a medium size, and with some gap, you'd send this request:
+
+`https://badgebuddy.vercel.app/api/badge?set=brands&icon=react&text=React%20Native&scheme=blue&rounded=some&padding=more`
+
+![Result from the above request](https://badgebuddy.vercel.app/api/badge?set=brands\&icon=react\&text=React%20Native\&scheme=blue\&rounded=some\&padding=more)
+
 ### How It Works
 
 BadgeBuddy is ultimately built on both [NextJS](https://nextjs.org/) and [Vercel Serverless Functions](https://vercel.com/docs/concepts/functions/serverless-functions). The server first receives a request from the client on the `/api/badge` route and forwards the query parameters through [Puppeteer](https://developer.chrome.com/docs/puppeteer/). Puppeteer renders the `/badge` route on a headless version of chromium, takes a screenshot, and returns the relevant image buffer to the client.
