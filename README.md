@@ -41,6 +41,6 @@ Huge thanks to the team over at [FontAwesome](https://fontawesome.com/) for prov
 
 ### Contributing
 
-If you'd like to contribute, please fork this repository, make your changes, and send a pull request. At the moment, this project is maintained by a student at Iowa State University
+If you'd like to contribute, please fork this repository, make your changes, and send a pull request. At the moment, this project is maintained by a student at Iowa State University.
 
 [![https://github.com/ryanhaticus/badgebuddy/fork](https://badgebuddy.vercel.app/api/badge?icon=code-fork\&text=Fork%20BadgeBuddy)](https://github.com/ryanhaticus/badgebuddy/fork)
