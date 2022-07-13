@@ -26,7 +26,7 @@ const Badge = () => {
   // icon = react, rectangle
   // size = small, medium, large
   // scheme = light, dark, red, blue, green, yellow, orange, purple, pink, indigo, gray, black, white
-  // rounded = true, false
+  // rounded = none, some, more, most
   // padding = none, some, more, most
   // gap = none, some, more, most
 
@@ -52,7 +52,9 @@ const Badge = () => {
       scheme === 'gray' && 'bg-gray-500 text-white',
       scheme === 'black' && 'bg-black text-white',
       scheme === 'white' && 'bg-white text-black',
-      rounded === 'true' && 'rounded-full',
+      rounded === 'some' && 'rounded-md',
+      rounded === 'more' && 'rounded-lg',
+      rounded === 'most' && 'rounded-full',
     );
 
   const iconClasses = () =>
