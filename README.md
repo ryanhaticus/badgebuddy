@@ -35,6 +35,10 @@ For example, if I want a React badge that says React Native, is blue, with some 
 
 BadgeBuddy is ultimately built on both [NextJS](https://nextjs.org/) and [Vercel Serverless Functions](https://vercel.com/docs/concepts/functions/serverless-functions). The server first receives a request from the client on the `/api/badge` route and forwards the query parameters through [Puppeteer](https://developer.chrome.com/docs/puppeteer/). Puppeteer renders the `/badge` route on a headless version of chromium, takes a screenshot, and returns the relevant image buffer to the client.
 
+### Thanks
+
+Huge thanks to the team over at [FontAwesome](https://fontawesome.com/) for providing all the amazing icons that BadgeBuddy uses. They're one of a kind!
+
 ### Contributing
 
 If you'd like to contribute, please fork this repository, make your changes, and send a pull request. At the moment, this project is maintained by a student at Iowa State University
