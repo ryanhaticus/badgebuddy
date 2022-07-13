@@ -33,14 +33,16 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   const badge = await page.$('#badge');
 
   const buffer = await badge.screenshot({
-    type: 'png',
+    type: 'webp',
     encoding: 'base64',
     omitBackground: true,
   });
 
   await browser.close();
 
-  res.setHeader('Content-Type', 'image/png');
+  res.setHeader('Cache-Control', 'public, max-age=86400');
+
+  res.setHeader('Content-Type', 'image/webp');
   res.send(Buffer.from(buffer as string, 'base64'));
 };
 
