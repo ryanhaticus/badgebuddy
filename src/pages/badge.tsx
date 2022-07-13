@@ -16,7 +16,7 @@ const Badge = () => {
     icon = 'certificate',
     text = 'BadgeBuddy',
     scheme = 'dark',
-    rounded = 'true',
+    rounded = 'most',
     padding = 'some',
     size = 'medium',
     gap = 'some',
