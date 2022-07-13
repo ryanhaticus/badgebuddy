@@ -16,7 +16,7 @@ In order to customize the icon set, color, icon, text, badge size, padding, and 
 
 | Parameter | Acceptable Values (\* denotes default)                                                    | Notes                                                                                                                    |
 | --------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| set       | brands\*, solid, regular                                                                  | This alters the set of FontAwesome icons that are used. It's important to note only free icon sets are available to use. |
+| set       | brands, solid\*, regular                                                                  | This alters the set of FontAwesome icons that are used. It's important to note only free icon sets are available to use. |
 | icon      | certificate\*, react, coffee-bean, etc.                                                   | Head over to [FontAwesome](https://fontawesome.com/search) to search through all of our available icons.                 |
 | text      | MaskBuddy\*, React, Your Name, etc.                                                       | This text can be anything you'd like. Remember to respect URL escaping. For example, a space character becomes `%20`.    |
 | scheme    | dark\*, light, red, blue, green, yellow, orange, purple, pink, indigo, gray, black, white | Huge thanks to the team over at [Tailwind CSS](https://www.tailwindcss.com/) for their amazing color palette.            |
