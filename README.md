@@ -8,16 +8,16 @@ description: Easily create badges for .md files
 
 ### Usage
 
-In order to start using BadgeBuddy, simply make a `GET` request to our API endpoint: [`https://badgebuddy.vercel.app/api/badge`](https://badgebuddy.vercel.app/api/badge)&#x20;
+In order to start using BadgeBuddy, simply make a `GET` request to our API endpoint: [`https://badgebuddy.vercel.app/api/badge`](https://badgebuddy.vercel.app/api/badge)
 
 ### Parameters
 
 In order to customize the icon set, color, icon, text, badge size, padding, and more, you can use the following parameters:
 
-| Parameter | Acceptable Values               (\* denotes default)                                      | Notes                                                                                                                    |
+| Parameter | Acceptable Values (\* denotes default)                                                    | Notes                                                                                                                    |
 | --------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| set \*    | brands\*, solid, regular                                                                  | This alters the set of FontAwesome icons that are used. It's important to note only free icon sets are available to use. |
-| icon \*   | certificate\*, react, coffee-bean, etc.                                                   | Head over to [FontAwesome](https://fontawesome.com/search) to search through all of our available icons.                 |
+| set       | brands\*, solid, regular                                                                  | This alters the set of FontAwesome icons that are used. It's important to note only free icon sets are available to use. |
+| icon      | certificate\*, react, coffee-bean, etc.                                                   | Head over to [FontAwesome](https://fontawesome.com/search) to search through all of our available icons.                 |
 | text      | MaskBuddy\*, React, Your Name, etc.                                                       | This text can be anything you'd like. Remember to respect URL escaping. For example, a space character becomes `%20`.    |
 | scheme    | dark\*, light, red, blue, green, yellow, orange, purple, pink, indigo, gray, black, white | Huge thanks to the team over at [Tailwind CSS](https://www.tailwindcss.com/) for their amazing color palette.            |
 | rounded   | none, some, more, most\*                                                                  |                                                                                                                          |
@@ -34,4 +34,3 @@ BadgeBuddy is ultimately built on both [NextJS](https://nextjs.org/) and [Vercel
 If you'd like to contribute, please fork this repository, make your changes, and send a pull request. At the moment, this project is maintained by a student at Iowa State University
 
 [![https://github.com/ryanhaticus/badgebuddy/fork](https://badgebuddy.vercel.app/api/badge?icon=code-fork\&text=Fork%20BadgeBuddy)](https://github.com/ryanhaticus/badgebuddy/fork)
-
