@@ -1959,6 +1959,24 @@ puppeteer-core@^15.3.2:
     unbzip2-stream "1.4.3"
     ws "8.8.0"
 
+puppeteer@^15.3.2:
+  version "15.3.2"
+  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-15.3.2.tgz#62162739044d570ab9907f85b1e1bbcf52adc79e"
+  integrity sha512-6z4fTHCHTpG3Yu7zqP0mLfCmkNkgw5KSUfLAwuBabz9Pkqoe0Z08hqUx5GNxhhMgEo4YVOSPBshePA6zliznWQ==
+  dependencies:
+    cross-fetch "3.1.5"
+    debug "4.3.4"
+    devtools-protocol "0.0.1011705"
+    extract-zip "2.0.1"
+    https-proxy-agent "5.0.1"
+    pkg-dir "4.2.0"
+    progress "2.0.3"
+    proxy-from-env "1.1.0"
+    rimraf "3.0.2"
+    tar-fs "2.1.1"
+    unbzip2-stream "1.4.3"
+    ws "8.8.0"
+
 queue-microtask@^1.2.2:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
@@ -2229,7 +2247,7 @@ tailwindcss@^3.1.4:
     quick-lru "^5.1.1"
     resolve "^1.22.1"
 
-tar-fs@*, tar-fs@2.1.1:
+tar-fs@2.1.1, tar-fs@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/tar-fs/-/tar-fs-2.1.1.tgz#489a15ab85f1f0befabb370b7de4f9eb5cbe8784"
   integrity sha512-V0r2Y9scmbDRLCNex/+hYzvp/zyYjvFbHPNgVTKfQvVrb6guiE/fxP+XblDNR011utopbkex2nM4dHNV6GDsng==
