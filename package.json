@@ -8,7 +8,6 @@
     "start": "next start"
   },
   "dependencies": {
-    "capture-website": "^2.4.0",
     "chrome-aws-lambda": "^8.0.2",
     "next": "^12.2.0",
     "puppeteer-core": "^8.0.0",
