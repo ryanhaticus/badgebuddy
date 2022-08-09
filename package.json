@@ -8,11 +8,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "capture-website": "^2.4.0",
+    "chrome-aws-lambda": "^8.0.2",
     "next": "^12.2.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
     "puppeteer-core": "^8.0.0",
-    "chrome-aws-lambda": "^8.0.2"
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",

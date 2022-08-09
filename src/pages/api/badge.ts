@@ -40,9 +40,9 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
 
   await browser.close();
 
-  res.setHeader('Cache-Control', 'public, max-age=86400');
-
+  res.setHeader('Cache-Control', 'public, max-age=1209600');
   res.setHeader('Content-Type', 'image/png');
+
   res.send(Buffer.from(buffer as string, 'base64'));
 };
 
